@@ -6,7 +6,7 @@ export function Header() {
       <div className="container mx-auto flex h-16 items-center justify-between px-4">
         <a href="/" className="flex items-center gap-2">
           <span className="font-display text-2xl font-semibold text-foreground">
-            Asper Beauty
+            Asper Pharma
           </span>
         </a>
         <nav className="hidden md:flex items-center gap-8">
