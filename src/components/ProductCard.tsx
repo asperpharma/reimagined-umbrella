@@ -44,8 +44,8 @@ export function ProductCard({ product }: ProductCardProps) {
       className="group block"
     >
       <div className="relative overflow-hidden rounded-xl bg-card border transition-all duration-300 hover:shadow-lg hover:-translate-y-1">
-        <div className="absolute top-2 right-2 z-10 bg-primary/90 backdrop-blur-sm text-primary-foreground rounded-full p-1.5">
-          <BadgeCheck className="h-4 w-4" />
+        <div className="absolute top-2 right-2 z-10 bg-primary/90 backdrop-blur-sm text-primary-foreground rounded-full p-1.5" aria-label="Pharmacist curated">
+          <BadgeCheck className="h-4 w-4" aria-hidden="true" />
         </div>
         <div className="aspect-square overflow-hidden bg-muted">
           {image ? (
