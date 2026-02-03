@@ -10,7 +10,8 @@ const Index = () => {
       <ProductGrid />
       <footer className="border-t py-8">
         <div className="container mx-auto px-4 text-center text-sm text-muted-foreground">
-          <p>© 2026 Asper Beauty. All rights reserved.</p>
+          <p className="mb-2">© 2026 Asper Pharma. All rights reserved.</p>
+          <p className="text-xs">Licensed pharmacists curating quality skincare products for your wellness</p>
         </div>
       </footer>
     </div>

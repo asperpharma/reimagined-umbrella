@@ -9,7 +9,7 @@ export function Hero() {
         <div className="max-w-2xl">
           <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-accent/50 text-accent-foreground text-sm mb-6">
             <Sparkles className="h-4 w-4" />
-            Premium Skincare Collection
+            Pharmacist-Curated Skincare
           </div>
           <h1 className="font-display text-4xl md:text-6xl font-semibold text-foreground leading-tight mb-6">
             Discover Your
@@ -17,7 +17,7 @@ export function Hero() {
             <span className="text-primary">Natural Glow</span>
           </h1>
           <p className="text-lg text-muted-foreground mb-8 max-w-xl">
-            Curated selection of luxury skincare products from the world's most trusted beauty brands. Reveal your skin's true radiance.
+            Expert pharmacist-curated selection of luxury skincare products from the world's most trusted beauty brands. Reveal your skin's true radiance with professional guidance.
           </p>
           <Button size="lg" asChild>
             <a href="#products">
